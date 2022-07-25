@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/11_background.png');
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.game{
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+img{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#ground{
+    z-index: 100;
+}
+
+
+#treesAndBush{
+    z-index: 90;
+}
+
+
+#bush{
+    z-index: 80;
+}
+
+
+#distantTrees{
+    z-index: 75;
+}
+
+#hill{
+    z-index: 70;
+}
+
+#hugeClouds{
+    z-index: 60;
+}
+
+#distantClouds{
+    z-index: 50;
+}
+
+#distantClouds2{
+    z-index: 40;
+}
