@@ -18,3 +18,16 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
 
 
 #### TO-DO's
+- [x] add basic html
+- [x] add script tag
+- [x] add css tag
+- [x] implement images into html
+- [x] make the landscape visible by layering the images
+- [] make them scroll sideways
+    - [] research on how to do this
+- [] change speed of different layers
+    - [] research on how to do this
+- [] add character/hero
+- [] animations for the character/hero
+    - [] research on how to do this
+- [] general styling (change images f.e.)
