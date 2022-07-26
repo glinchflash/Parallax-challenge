@@ -34,7 +34,11 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
     - [x] research on how to do this
     -> jump/float animation added through combination of javascript and css
     -> used an online tool to create a gif from the images
-- [ ] add obstacles to the scene
+- [x] add obstacles to the scene
+  - [x] implement obstacles in html, css and js
+  -> created another gif for the obstacles
+  - [ ] make obstacle and character able to collide
+    - [ ] research on how to do this  
 - [] general styling (change images f.e.)
   - [x] changed images to different scene 
   - [] title of the game
