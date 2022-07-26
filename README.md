@@ -8,11 +8,11 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
 
 
 ### Must-haves
-- [ ] A page with a moving background that looks natural
+- [x] A page with a moving background that looks natural
 - [ ] Something of your personal choosing to enhance the page, go take a look at the suggestions or come up with something yourself!
 
 ### Plan of attack
-- do some research on how to make this happen
+- [x] do some research on how to make this happen
 - do some research on topics, creative idea's
 - make small TO-DO's like this one for the bigger parts of the challenge
 
