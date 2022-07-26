@@ -6,6 +6,11 @@ If you position them over eachother in the right order you will get a pretty bac
 Our goal now will be to animate each piece based on how far it is in the background.
 The first layer (the ground) will move fastest, the last (the sky) will be static.
 
+## game title: Ghosty's traveling adventures (GTA)
+
+### backstory:
+
+
 
 ### Must-haves
 - [x] A page with a moving background that looks natural
@@ -13,8 +18,8 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
 
 ### Plan of attack
 - [x] do some research on how to make this happen
-- do some research on topics, creative idea's
-- make small TO-DO's like this one for the bigger parts of the challenge
+- [x] do some research on topics, creative idea's
+- [x] make small TO-DO's like this one for the bigger parts of the challenge
 
 
 #### TO-DO's
@@ -41,5 +46,5 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
     - [ ] research on how to do this  
 - [] general styling (change images f.e.)
   - [x] changed images to different scene 
-  - [] title of the game
+  - [x] title of the game
   - [] some 'backstory' for the game
