@@ -8,7 +8,7 @@ document.addEventListener('keydown', e =>{
     setTimeout(function (){
         ghosty.classList.remove("ghostyJump");
         ghosty.removeAttribute("style");
-    },1000)
+    },1400)
 });
 
 
