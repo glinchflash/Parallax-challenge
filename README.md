@@ -29,9 +29,11 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
 - [x] change speed of different layers
     - [x] research on how to do this
     -> used css for animating the 'scrolling' so just changed duration 
-- [] add character/hero
-- [] animations for the character/hero
-    - [] research on how to do this
+- [x] add character/hero
+- [x] animations for the character/hero
+    - [x] research on how to do this
+    -> jump/float animation added through combination of javascript and css
+- [ ] add obstacles to the scene
 - [] general styling (change images f.e.)
   - [x] changed images to different scene 
   - [] title of the game
