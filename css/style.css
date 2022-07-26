@@ -118,7 +118,7 @@
     bottom: 10%;
     left: 1000px;
     z-index: 150;
-    animation: crashCourse 4s infinite linear;
+    animation: crashCourse 3.5s infinite linear;
 }
 
 @keyframes crashCourse {
