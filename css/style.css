@@ -71,7 +71,7 @@
 
 
 /*****************************
-  *** character/ghosty ***
+ ***   character/ghosty    ***
  *****************************/
 
 #ghosty{
@@ -86,20 +86,47 @@
 }
 
 .ghostyJump {
-    animation: ghosty-jump 1000ms;
+    animation: ghosty-jump 1400ms;
 }
 
 @keyframes ghosty-jump {
     0% {
         bottom: 2%;
     }
-    30% {
-        bottom: 10%;
+    30%{
+        bottom: 30%;
     }
-    70% {
-        bottom: 25%;
+    50% {
+        bottom: 40%;
     }
     100% {
         bottom: 2%;
     }
 }
+
+
+/*****************************
+ ***       obstacle        ***
+ *****************************/
+
+#obstacle {
+    width: 13%;
+    height: 25%;
+    background:url("../images/blueBat.gif") no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 10%;
+    left: 1000px;
+    z-index: 150;
+    animation: crashCourse 4s infinite linear;
+}
+
+@keyframes crashCourse {
+    0% {
+        left: 1800px;
+    }
+    100% {
+        left: -400px;
+    }
+}
+
