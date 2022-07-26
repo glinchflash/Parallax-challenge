@@ -23,11 +23,16 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
 - [x] add css tag
 - [x] implement images into html
 - [x] make the landscape visible by layering the images
-- [] make them scroll sideways
-    - [] research on how to do this
-- [] change speed of different layers
-    - [] research on how to do this
+- [x] make them scroll sideways
+    - [x] research on how to do this
+    -> went for the div way with animating it through css (tried canvas, didn't really like it) 
+- [x] change speed of different layers
+    - [x] research on how to do this
+    -> used css for animating the 'scrolling' so just changed duration 
 - [] add character/hero
 - [] animations for the character/hero
     - [] research on how to do this
 - [] general styling (change images f.e.)
+  - [x] changed images to different scene 
+  - [] title of the game
+  - [] some 'backstory' for the game
