@@ -4,6 +4,39 @@
 }
 
 
+#start {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1000;
+    background-color: springgreen;
+    height: 100vh;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    opacity: 90%;
+    text-align: center;
+}
+
+h1{
+    color: red;
+    text-decoration: underline;
+    font-size: xxx-large;
+}
+
+p{
+    color: orangered;
+    font-size: larger;
+}
+#start-button{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 20%;
+    height: 15%;
+    color: red;
+    background-color: gray;
+}
+
 #game {
     position: fixed;
     width: 100%;
@@ -22,36 +55,36 @@
     }
 }
 
-
+/* commented out animation since js script takes over this part now (but wanted to keep old code)*/
 
 #ground {
     background: url("../images/6.png") repeat-x 0 bottom;
-    animation: autoscroll 3s linear infinite;
+    /*animation: autoscroll 3s linear infinite;*/
     z-index: 90;
 }
 
 #treesAndBushes {
     background: url("../images/4.png") repeat-x 0 bottom;
-    animation: autoscroll 6s linear infinite;
+    /*animation: autoscroll 6s linear infinite;*/
     z-index: 80;
 }
 
 #distantTrees {
     background: url("../images/2.png") repeat-x 0 bottom;
-    animation: autoscroll 8s linear infinite;
+    /*animation: autoscroll 8s linear infinite;*/
     z-index: 70;
 }
 
 
 #bushes {
     background: url("../images/5.png") repeat-x 0 bottom;
-    animation: autoscroll 10s linear infinite;
+    /*animation: autoscroll 10s linear infinite;*/
     z-index: 50;
 }
 
 #hills {
     background: url("../images/3.png") repeat-x 0 bottom;
-    animation: autoscroll 12s linear infinite;
+    /*animation: autoscroll 12s linear infinite;*/
     z-index: 60;
 }
 
@@ -118,7 +151,7 @@
     bottom: 10%;
     left: 150%;
     z-index: 150;
-    animation: crashCourse 3.5s infinite linear;
+    /*animation: crashCourse 3.5s infinite linear;*/
 }
 
 @keyframes crashCourse {
