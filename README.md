@@ -44,7 +44,9 @@ The first layer (the ground) will move fastest, the last (the sky) will be stati
   -> created another gif for the obstacles
   - [ ] make obstacle and character able to collide
     - [ ] research on how to do this  
-- [] general styling (change images f.e.)
+- [ ] add points system
+- [ ] add more obstacles
+- [ ] general styling (change images f.e.)
   - [x] changed images to different scene 
   - [x] title of the game
-  - [] some 'backstory' for the game
+  - [ ] some 'backstory' for the game
