@@ -1,57 +1,72 @@
-body{
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
-    background-image: url('../images/11_background.png');
-    background-repeat: repeat-x;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
 }
 
-.game{
-    width: 100%;
-    overflow: hidden;
-    z-index: 0;
-}
 
-img{
+#game {
     position: fixed;
     width: 100%;
     height: 100%;
-    z-index: 0;
 }
 
-#ground{
-    z-index: 100;
+/*****************************
+  *** PARALLAX BACKGROUND ***
+ *****************************/
+@keyframes autoscroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-30%);
+    }
 }
 
 
-#treesAndBush{
+
+#ground {
+    background: url("../images/6.png") repeat-x 0 bottom;
+    animation: autoscroll 3s linear infinite;
     z-index: 90;
 }
 
-
-#bush{
+#treesAndBushes {
+    background: url("../images/4.png") repeat-x 0 bottom;
+    animation: autoscroll 6s linear infinite;
     z-index: 80;
 }
 
-
-#distantTrees{
-    z-index: 75;
-}
-
-#hill{
+#distantTrees {
+    background: url("../images/2.png") repeat-x 0 bottom;
+    animation: autoscroll 8s linear infinite;
     z-index: 70;
 }
 
-#hugeClouds{
-    z-index: 60;
-}
 
-#distantClouds{
+#bushes {
+    background: url("../images/5.png") repeat-x 0 bottom;
+    animation: autoscroll 10s linear infinite;
     z-index: 50;
 }
 
-#distantClouds2{
-    z-index: 40;
+#hills {
+    background: url("../images/3.png") repeat-x 0 bottom;
+    animation: autoscroll 12s linear infinite;
+    z-index: 60;
 }
+
+
+#ground,
+#treesAndBushes,
+#distantTrees,
+#bushes,
+#hills{
+    width: 270%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-size: 30%;
+}
+
+
