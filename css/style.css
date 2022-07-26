@@ -116,7 +116,7 @@
     background-size: cover;
     position: absolute;
     bottom: 10%;
-    left: 1000px;
+    left: 150%;
     z-index: 150;
     animation: crashCourse 3.5s infinite linear;
 }
