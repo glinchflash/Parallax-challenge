@@ -70,3 +70,36 @@
 }
 
 
+/*****************************
+  *** character/ghosty ***
+ *****************************/
+
+#ghosty{
+    background:url("../images/ghosty.png") no-repeat;
+    background-size: contain;
+    width: 15%;
+    height: 30%;
+    z-index: 150;
+    position: absolute;
+    left: 20%;
+    bottom: 2%;
+}
+
+.ghostyJump {
+    animation: ghosty-jump 1000ms;
+}
+
+@keyframes ghosty-jump {
+    0% {
+        bottom: 2%;
+    }
+    30% {
+        bottom: 10%;
+    }
+    70% {
+        bottom: 25%;
+    }
+    100% {
+        bottom: 2%;
+    }
+}
